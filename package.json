@@ -1,0 +1,49 @@
+{
+  "name": "omnideck-mcp",
+  "version": "1.0.0",
+  "description": "Privacy-first local MCP server: redact secrets, decode JWTs, estimate LLM costs, split long documents and check AI output for hallucinations — all on your own machine, with no network calls.",
+  "type": "module",
+  "main": "./index.js",
+  "bin": {
+    "omnideck-mcp": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "mcp",
+    "modelcontextprotocol",
+    "model-context-protocol",
+    "claude",
+    "llm",
+    "ai",
+    "privacy",
+    "redaction",
+    "pii",
+    "secrets",
+    "jwt",
+    "tokenizer",
+    "llm-cost",
+    "hallucination"
+  ],
+  "license": "MIT",
+  "author": "AAPD Studio",
+  "homepage": "https://omnideck.cc",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aapd-studio/omnideck-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aapd-studio/omnideck-mcp/issues"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "gpt-tokenizer": "^2.9.0",
+    "zod": "^3.23.8"
+  }
+}
