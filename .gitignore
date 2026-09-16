@@ -1,3 +1,5 @@
 node_modules/
 *.tgz
+*.tar.gz
+*.exe
 package-lock.json
