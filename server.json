@@ -1,7 +1,7 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.aapd-studio/omnideck",
-  "description": "Privacy-first local MCP server: redact secrets, decode JWTs, estimate LLM costs, split long documents and check AI output for hallucinations — all on your own machine, with no network calls.",
+  "description": "Local privacy-first tools: redact secrets, decode JWTs, compare LLM costs. No network calls.",
   "repository": {
     "url": "https://github.com/aapd-studio/omnideck-mcp",
     "source": "github"
