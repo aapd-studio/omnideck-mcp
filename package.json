@@ -1,6 +1,7 @@
 {
   "name": "omnideck-mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "mcpName": "io.github.aapd-studio/omnideck",
   "description": "Privacy-first local MCP server: redact secrets, decode JWTs, estimate LLM costs, split long documents and check AI output for hallucinations — all on your own machine, with no network calls.",
   "type": "module",
   "main": "./index.js",
