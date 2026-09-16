@@ -111,6 +111,9 @@ an online hash generator.
 
 ## Related
 
+Full documentation for this server, in English and Spanish:
+[omnideck.cc/mcp](https://omnideck.cc/mcp)
+
 These tools also run as free browser-based utilities, alongside ~125 others, at
 [omnideck.cc](https://omnideck.cc) — same principle, everything client-side.
 
