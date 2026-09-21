@@ -1,6 +1,6 @@
 {
   "name": "omnideck-mcp",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "mcpName": "io.github.aapd-studio/omnideck",
   "description": "Privacy-first local MCP server: redact secrets, decode JWTs, estimate LLM costs, split long documents and check AI output for hallucinations — all on your own machine, with no network calls.",
   "type": "module",
@@ -43,7 +43,7 @@
     "url": "https://github.com/aapd-studio/omnideck-mcp/issues"
   },
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.12.0",
+    "@modelcontextprotocol/sdk": "^1.30.0",
     "gpt-tokenizer": "^2.9.0",
     "zod": "^3.23.8"
   }
