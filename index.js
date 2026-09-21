@@ -77,6 +77,12 @@ server.registerTool(
   "redact_sensitive_data",
   {
     title: "Redact sensitive data",
+    annotations: {
+      readOnlyHint: true,
+      destructiveHint: false,
+      idempotentHint: true,
+      openWorldHint: false
+    },
     description:
       "Mask emails, API keys, credit cards, IBANs, IP addresses and phone numbers in a block of text. Use this BEFORE sending user-supplied text, logs, config files or pasted documents to any external API, or before quoting them back in a shared transcript. Runs entirely locally — nothing is transmitted.",
     inputSchema: {
@@ -123,6 +129,12 @@ server.registerTool(
   "decode_jwt",
   {
     title: "Decode a JWT",
+    annotations: {
+      readOnlyHint: true,
+      destructiveHint: false,
+      idempotentHint: true,
+      openWorldHint: false
+    },
     description:
       "Decode the header and payload of a JSON Web Token and report its expiry status. Does NOT verify the signature (no secret is involved, and none should be pasted anywhere). Use this instead of an online JWT decoder — a token is a live credential and should never be pasted into a website.",
     inputSchema: { token: z.string().describe("The JWT, with or without a 'Bearer ' prefix.") }
@@ -179,6 +191,12 @@ server.registerTool(
   "estimate_llm_cost",
   {
     title: "Estimate and compare LLM cost",
+    annotations: {
+      readOnlyHint: true,
+      destructiveHint: false,
+      idempotentHint: true,
+      openWorldHint: false
+    },
     description:
       "Compare what one request would cost across GPT, Claude and Gemini models, sorted cheapest first. Pass the prompt text, or pass input_tokens directly if you already know the count. Useful for picking a model before running a large batch job.",
     inputSchema: {
@@ -275,6 +293,12 @@ server.registerTool(
   "split_for_context",
   {
     title: "Split text for a context window",
+    annotations: {
+      readOnlyHint: true,
+      destructiveHint: false,
+      idempotentHint: true,
+      openWorldHint: false
+    },
     description:
       "Break a long document into chunks that fit a target context window, cutting on paragraph boundaries (falling back to sentence boundaries) so no chunk ends mid-thought. Use when a file is too large to process in one pass.",
     inputSchema: {
@@ -340,6 +364,12 @@ server.registerTool(
   "check_output_fidelity",
   {
     title: "Check AI output against its source",
+    annotations: {
+      readOnlyHint: true,
+      destructiveHint: false,
+      idempotentHint: true,
+      openWorldHint: false
+    },
     description:
       "Flag names, numbers and dates that appear in an AI-generated summary but NOT in the source text it was based on — the usual shape of a hallucination. This is a lexical heuristic, not a fact-checker: it catches invented specifics, not wrong reasoning. Use it to decide what to verify by hand.",
     inputSchema: {
@@ -376,6 +406,12 @@ server.registerTool(
   "hash_text",
   {
     title: "Hash text locally",
+    annotations: {
+      readOnlyHint: true,
+      destructiveHint: false,
+      idempotentHint: true,
+      openWorldHint: false
+    },
     description:
       "Compute an MD5, SHA-1, SHA-256 or SHA-512 digest of a string, locally. Use instead of an online hash generator when the input is a password, secret or any private value.",
     inputSchema: {
