@@ -1,5 +1,7 @@
 # OmniDeck MCP
 
+[![M8ven Verified](https://m8ven.ai/badge/mcp/aapd-studio/omnideck-mcp?variant=verified)](https://m8ven.ai/mcp/aapd-studio/omnideck-mcp)
+
 **Local, privacy-first tools for AI agents. No network calls, ever.**
 
 Some tasks are awkward to hand to an AI agent because doing them normally means
