@@ -1,6 +1,6 @@
 # OmniDeck MCP
 
-[![M8ven Verified](https://m8ven.ai/badge/mcp/aapd-studio/omnideck-mcp?variant=verified)](https://m8ven.ai/mcp/aapd-studio/omnideck-mcp)
+[![M8ven Score](https://m8ven.ai/badge/mcp/aapd-studio-omnideck-mcp-yfd0q0?v=0cd9cf198e34818dc8716bd4857343df&variant=verified)](https://m8ven.ai/mcp/aapd-studio-omnideck-mcp-yfd0q0)
 
 **Local, privacy-first tools for AI agents. No network calls, ever.**
 
