@@ -175,16 +175,18 @@ server.registerTool(
 /* -------------------------------------------------------------------- cost */
 
 // Update every 2-3 months. USD per 1,000,000 tokens, standard public list rates.
-const PRICE_DATE = "2026-08";
+// Gemini 3.8 Flash doubles on 2027-01-01.
+const PRICE_DATE = "2026-10";
 const PRICES = [
-  { label: "GPT-4o mini", input: 0.15, output: 0.6 },
-  { label: "Gemini 2.0 Flash", input: 0.1, output: 0.4 },
-  { label: "Claude Haiku 4.5", input: 0.8, output: 4.0 },
-  { label: "GPT-4o", input: 2.5, output: 10.0 },
-  { label: "Gemini 1.5 Pro", input: 1.25, output: 5.0 },
-  { label: "Claude Sonnet 5", input: 3.0, output: 15.0 },
-  { label: "GPT-4 Turbo", input: 10.0, output: 30.0 },
-  { label: "Claude Opus 4", input: 15.0, output: 75.0 }
+  { label: "GPT-6 Luna", input: 0.1, output: 0.5 },
+  { label: "Gemini 3.5 Flash-Lite", input: 0.3, output: 2.5 },
+  { label: "Gemini 3.8 Flash", input: 0.75, output: 3.75 },
+  { label: "Claude Haiku 4.5", input: 1.0, output: 5.0 },
+  { label: "GPT-6.1 Sol", input: 2.0, output: 10.0 },
+  { label: "Claude Sonnet 5.5", input: 2.0, output: 10.0 },
+  { label: "Gemini 3.1 Pro", input: 2.0, output: 12.0 },
+  { label: "Claude Opus 5.5", input: 4.0, output: 20.0 },
+  { label: "GPT-6 Astra", input: 10.0, output: 50.0 }
 ];
 
 server.registerTool(

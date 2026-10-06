@@ -74,12 +74,12 @@ one into an online decoder.
 
 ### `estimate_llm_cost`
 
-Compares what a single request would cost across eight GPT, Claude and Gemini
+Compares what a single request would cost across nine GPT, Claude and Gemini
 models, cheapest first. Pass `text` (tokens are counted exactly via
 `gpt-tokenizer`) or pass `input_tokens` directly. Useful before committing to a
 model for a large batch job.
 
-List prices are current as of **2026-08** and are refreshed periodically —
+List prices are current as of **2026-10** and are refreshed periodically —
 check your provider's pricing page before relying on them for billing
 decisions.
 
